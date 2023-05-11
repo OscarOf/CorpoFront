@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-let url = "http://corpo-back.vercel.app";
+let url = "https://corpo-back.vercel.app";
 
 export const Form = () => {
 
