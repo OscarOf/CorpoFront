@@ -57,12 +57,6 @@ export const Form = () => {
         }
     };
 
-    const peticionPost = async()=>{
-        await axios.post('pos')
-    }
-
-    
-
     return (
         <div className='cont-form'>
             <form className='donation-form' onSubmit={addDonation}>
