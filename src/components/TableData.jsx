@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { IoLogOut} from "react-icons/io5";
 
 
-let url = "http://localhost:3030";
+let url = "https://corpoback-production.up.railway.app";
 let token = sessionStorage.getItem('token');
 
 function TableData() {

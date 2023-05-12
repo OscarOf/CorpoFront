@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, Navigate } from "react-router-dom";
-let url = "http://localhost:3030";
+let url = "https://corpoback-production.up.railway.app";
 
 export const Session = () => {
 
