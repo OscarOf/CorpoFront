@@ -28,7 +28,7 @@ export const Session = () => {
 
             if (res.data.message == "Bienvenido") {
                 alert(res.data.message);
-                setTimeout(function () { window.location.href = "https://corpoback-production.up.railway.app/TableData"; }, 2000);
+                setTimeout(function () { window.location.href = "https://corpo-front.vercel.app/TableData"; }, 2000);
             } else {
                 alert(res.data.message)
             }
